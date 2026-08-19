@@ -3,7 +3,7 @@
 A prototype patient record management system combining a **custom Python blockchain**
 (built from scratch) and a **Solidity smart contract deployed to the Ethereum Sepolia
 Testnet**. Built for a fictional healthcare organisation, HealthCare Innovations Ltd.,
-as part of an MSc Blockchain module (LDS7006M).
+as part of an MSc Blockchain module (LDS7006M). You can read the report [here](https://github.com/nee-tee/Blockchain-patient-records/blob/main/BLOCKCHAIN%20Project.pdf)
 
 ## Overview
 
