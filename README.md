@@ -3,7 +3,18 @@
 A prototype patient record management system combining a **custom Python blockchain**
 (built from scratch) and a **Solidity smart contract deployed to the Ethereum Sepolia
 Testnet**. Built for a fictional healthcare organisation, HealthCare Innovations Ltd.,
-as part of an MSc Blockchain module (LDS7006M). You can read the full report [here](https://github.com/nee-tee/Blockchain-patient-records/blob/main/BLOCKCHAIN%20Project.pdf)
+as part of an MSc Blockchain module (LDS7006M).
+
+This project explores whether blockchain can provide a shared, tamper-evident ledger where every time a patient record
+is created or handed off between healthcare providers, that action is permanently and
+verifiably recorded. If anyone tries to alter a record after the fact, the system
+detects it immediately — because changing even one letter changes that record's unique
+digital fingerprint, breaking its link to everything that came after it. You can read the full report [here](https://github.com/nee-tee/Blockchain-patient-records/blob/main/BLOCKCHAIN%20Project.pdf).
+
+The project has two parts: a blockchain built from scratch in Python to demonstrate how
+these core ideas work under the hood, and a real smart contract deployed to a public
+Ethereum test network to show the same concept operating on live blockchain
+infrastructure, complete with rules about who's allowed to create or transfer records.
 
 ## Overview
 
