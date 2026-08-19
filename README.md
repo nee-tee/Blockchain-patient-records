@@ -1,9 +1,9 @@
 # Blockchain-Based Patient Record Management System
 
-A prototype patient record management system combining a **custom Python blockchain**
-(built from scratch) and a **Solidity smart contract deployed to the Ethereum Sepolia
-Testnet**. Built for a fictional healthcare organisation, HealthCare Innovations Ltd.,
-as part of an MSc Blockchain module (LDS7006M).
+A prototype patient record management system combining a custom Python blockchain
+(built from scratch) and a Solidity smart contract deployed to the Ethereum Sepolia
+Testnet. Built for a fictional healthcare organisation, HealthCare Innovations Ltd.,
+as part of an MSc Blockchain course assessment project.
 
 This project explores whether blockchain can provide a shared, tamper-evident ledger where every time a patient record
 is created or handed off between healthcare providers, that action is permanently and
@@ -38,7 +38,7 @@ The project demonstrates blockchain fundamentals in a healthcare context, split 
    - Only cryptographic hashes of clinical data are stored on-chain (`recordHash`),
      not raw patient information, to protect privacy
 
-   Contract interaction and testing is in
+   Contract interaction and testing are in
    `notebooks/LDS7006M_Contract_Interaction.ipynb`, using `web3.py` to call the
    deployed contract on Sepolia.
 
