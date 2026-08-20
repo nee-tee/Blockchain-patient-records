@@ -20,7 +20,7 @@ infrastructure, complete with rules about who's allowed to create or transfer re
 
 The project demonstrates blockchain fundamentals in a healthcare context, split into two parts:
 
-1. **Python blockchain (`notebooks/LDS7006M_Blockchain_Python.ipynb`)**
+1. **Python blockchain [notebooks](https://github.com/nee-tee/Blockchain-patient-records/tree/main/notebooks)**
    A from-scratch blockchain implementation covering:
    - Block structure and SHA-256 cryptographic hashing
    - Genesis block creation
