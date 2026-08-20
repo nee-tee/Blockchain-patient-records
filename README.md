@@ -21,7 +21,7 @@ infrastructure, complete with rules about who's allowed to create or transfer re
 The project demonstrates blockchain fundamentals in a healthcare context, split into two parts:
 
 1. **Python blockchain [notebooks](https://github.com/nee-tee/Blockchain-patient-records/tree/main/notebooks)**
-   A from-scratch blockchain implementation covering:
+   - A from-scratch blockchain implementation covering:
    - Block structure and SHA-256 cryptographic hashing
    - Genesis block creation
    - Proof-of-Work mining (configurable difficulty)
@@ -29,8 +29,8 @@ The project demonstrates blockchain fundamentals in a healthcare context, split 
    - Chain validation and tampering detection
    - A simplified distributed consensus simulation (longest-chain rule)
 
-2. **Solidity smart contract (`contracts/PatientRecordContract.sol`)**
-   Deployed live to the **Ethereum Sepolia Testnet**, with role-based access control:
+2. **Solidity [smart contract](https://github.com/nee-tee/Blockchain-patient-records/blob/main/contracts/PatientRecordContract.sol)**
+   - Deployed live to the Ethereum Sepolia Testnet, with role-based access control:
    - `authoriseProvider` / `revokeProvider` — admin-only provider management
    - `addRecord` — authorised providers create new patient records on-chain
    - `transferRecord` — transfer record custody between authorised providers
